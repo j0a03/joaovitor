@@ -1,0 +1,17 @@
+/* marcar a tag, o id ou a class */
+
+body{
+    background-color: green;
+}
+
+#Titulo-Principal{
+    color: gray;
+    font-size:xx-large;
+    font-family: fantasy;
+}
+
+.titulos{
+    color: darkblue;
+    font-size: larger;
+    font-family: monospace;
+}
