@@ -2,6 +2,7 @@
     <head>
         <title>Document</title>
         <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
     </head>
     <body>
       <h1 id="Titulo-Principal">Titulo grande</h1>
@@ -13,5 +14,56 @@
       <hr>
       <p class="conteudo">eu amo animes e por isso eu me divirto</p>
       <img src="./imagens/RockGuy.png" alt="TheRock"/>
+      <hr>
+      <img src="./imagens/bruh.png" alt="bruh" width="1000px"/>
+
+      <nav>
+        <h1> Titulo </h1> 
+      <p>texto aqui e menor</p>
+      <div>
+        <input type="password" id="pass" placeholder="digite sua senha"
+        <button 
+        onclick="
+            var pass = document.getElementById('pass').value;
+        console.log(pass);
+        if (pass == 'tomate'){
+          alert('Bem Vindo!')
+        }
+        else{
+          alert('Nao pode entrar')
+        }
+        "
+
+        
+         >
+        entrar
+        </button>
+
+      </div>
+
+      <h1> Quantas pessoas deseja cadastrar?</h1>
+      <input id="qtd">
+      <button onclick="Cadastrar()">
+      Criar
+      </button>
+      <h1>Array</h1>
+      <button onclick="PreencherSelect()">
+      Preencher Select
+      </button>
+      <br>
+      <input id="inputItem"/>
+      <button onclick="AdicionarItem()">
+      Adicionar
+      </button>
+      <br>
+      <button onclick="ApagarItem()">
+      Apagar item selecionado
+      </button>
+      <select id="meuSelect">
+
+        </select>
+        <h1>Calculadora</h1>
+
+      </nav>
     </body>
 </html>
